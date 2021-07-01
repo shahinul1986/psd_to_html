@@ -1,0 +1,520 @@
+.topbar{
+    background-color: #618138;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topbar p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.topbar a{
+    color: #bacea3;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/* HEADER PART */
+
+.header .container{
+    max-width: 1390px;
+}
+
+.head-menu ul li a{
+    font-size: 16px;
+    padding: 0 15px;
+    color: #969696;
+    line-height: 65px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.header{
+    padding: 10px 0;    
+}
+
+.fa{
+    padding: 0 5px;
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* Main and Resposive Menu */
+.main-menu{
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    
+}
+.main-menu .navbar{
+    padding: 0;
+}
+.main-menu a.nav-link{
+    border-right: 1px solid #f3f3f3;
+    padding: 10px 40px !important;
+    color: #3e3e3e;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.main-menu li:last-child a.nav-link{
+    border-right: 0;
+}
+.main-menu .dropdown-menu{
+    width: cale(100*29px);
+    border: none;
+    webkit-box-shadow: 0px 7px 4px -3px rgba(0,0,0,0.74);
+    box-shadow: 0px 7px 4px -3px rgba(0,0,0,0.74);
+    left: 15px;
+}
+.main-menu .dropdown-menu a.nav-link {
+    border-right: 0;
+}
+
+.main-menu .dropdown-menu .dropdown-item {
+    display: inline-block;
+    width: auto;
+}
+
+.main-menu .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-menu .container-fluid .row {
+    margin-right: 0;
+}
+
+/* Banner or Cover  */
+.banner .container{
+    max-width: 1390px;
+}
+
+.banner{
+    padding: 1px 0;
+}
+.banner .banner-text{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 100px;
+}
+.banner h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner p {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.banner a {
+    display: inline-block;
+    border: 2px solid #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: all ease-in-out 0.5s;
+    border-radius: 10px;
+}
+
+
+
+/* Service Block */
+
+.service .container{
+    max-width: 1390px;
+}
+.service figure{
+    position: relative;
+    overflow: hidden;
+}
+.service figure figcaption{
+    position: absolute;
+    left: 0;
+    bottom: -106px;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+.service figure figcaption h5{
+    font-family: 'Teko' , sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.service figure figcaption a{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.service figure:hover figcaption{
+    bottom: 0;
+    display: block;
+    transition: all ease-in-out 0.6s;
+}
+
+
+/*--------------- customer-------------- */
+
+.customer {
+    margin-bottom: 20px;
+}
+
+.customer h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #969696;
+    text-align: center;
+    position: relative;
+}
+
+.customer h2:after, .customer h2:before {
+    content: " ";
+    width: 37%;
+    height: 25px;
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    display: block;
+    position: absolute;
+    top: 5px;
+}
+
+.customer h2:before {
+    left: 0;
+}
+
+.customer h2:after {
+    right: 0;
+}
+
+/* --------------Two Picture---------------- */
+
+.service-block .container{
+    max-width: 1390px;
+}
+.service-block figure{
+    position: relative;
+    overflow: hidden;
+}
+.service-block figure figcaption{
+    position: absolute;
+    left: 0;
+    bottom: -106px;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+.service-block figure figcaption h5{
+    font-family: 'Teko' , sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.service-block figure figcaption a{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.service-block figure:hover figcaption{
+    bottom: 0;
+    display: block;
+    transition: all ease-in-out 0.6s;
+}
+
+/* <!-- --------Customer H2 header------------ --> */
+
+.customer1 {
+    margin-bottom: 20px;
+}
+
+.customer1 h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #969696;
+    text-align: center;
+    position: relative;
+}
+
+.customer1 h2:after, .customer1 h2:before {
+    content: " ";
+    width: 37%;
+    height: 25px;
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    display: block;
+    position: absolute;
+    top: 5px;
+}
+
+.customer1 h2:before {
+    left: 0;
+}
+
+.customer1 h2:after {
+    right: 0;
+}
+
+/* -------product price */
+/* -------product price carousel */
+
+.product .container{
+    max-width: 1390px;
+}
+.product h3{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #969696;
+    text-transform: uppercase;
+}
+.product h5{
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #969696;
+}
+.product p{
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #969696;
+}
+
+
+.product .price{
+    display: flex;
+    width: 100%;
+}
+.product .price ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #969696;
+    line-height: 30px;
+    
+}
+
+/*  -------------SCENARY---------- */
+.scene .container{
+    max-width: 1390px;
+}
+.scene img{
+    width: 100%;
+    height: 400px;
+}
+
+.scene .scene-two figcaption h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+.scene .scene-two figcaption p{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    padding: 20px 0;
+}
+.scene .scene-two figcaption a{
+    display: inline-block;
+    border: 2px solid #fff;
+    font-family: 'Teko' , sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: background-color ease-in-out 0.6s;
+}
+.scene .scene-two figcaption a:hover{
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid rgba(0,0,0,0.5);
+}
+.scene .scene-two figcaption{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    width: 500px;
+    padding: 50px 40px;
+    left: 0;
+}
+.scene .scene-two figure{
+    position: relative;
+    overflow: hidden;
+}
+.scene figure:hover figcaption{
+    bottom: 0;
+    top: 0;
+    display: block;
+    transition: all ease-in-out 0.7s;
+}
+
+
+/* Member Reward */
+.member .container{
+    max-width: 1390px;
+}
+.member img{
+    width: 100%;
+}
+
+.member figcaption ul{
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+}
+.member figcaption ul li p{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    padding: 30px 20px;
+}
+.member figcaption ul li a{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: auto;
+}
+.member figcaption ul li:last-child{
+    float: right;
+    margin: 54px 140px;
+}
+.member figcaption ul li:last-child{
+    float: right;
+    margin: 54px 140px;
+}
+.member figcaption ul li:nth-child(2){
+    align-content: center;
+    margin: 10px 50px;
+}
+.member figcaption ul li:first-child{
+    margin: 34px 77px;
+}
+.member figure{
+    position: relative;
+}
+.member figure figcaption{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/* ------Payment--------- */
+
+.payment .container{
+    height: 280px;
+    background-color: #f4f4f4;
+    max-width: 100%;
+    padding: 78px 140px;
+}
+.payment .cuss-ser h5 a, .payment .about h5 a{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #7d7d7d;
+}
+
+.about p a, .cuss-ser p a{
+    display: flex;
+    font-family: 'Ropa Sans' , sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7d7d7d;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #618138;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.footer ul li p{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    color: #ffffff;
+}
+.footer ul li a{
+    font-family: 'Ropa Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li{
+    padding-top: 14px;
+    padding-left: 20px;
+}
+.footer ul li:last-child{
+    padding-left: 450px;
+}
